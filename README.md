@@ -1,7 +1,12 @@
 Start Back-End =>
-    npm run dev
+    yarn start
     open in "http://localhost:3333/"
 
 Start Front-End =>
-    npm start
+    yarn start
     open in "http://localhost:3000"
+
+Start Mobile =>
+    yarn start
+    open in "http://localhost:3000"
+        - Utilizar aplicativo do expo para rodar a aplicação no celular    
