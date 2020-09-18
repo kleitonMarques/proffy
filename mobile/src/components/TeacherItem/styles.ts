@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#fafafc',
         padding: 24,
         alignItems: 'center',
+        marginBottom: 24,
     },
 
     price: {
@@ -79,6 +80,28 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         marginRight: 8,
+    },
+
+    favorited: {
+        backgroundColor: '#e33d3d',
+    },
+
+    contactButton: {
+        backgroundColor: '#04d361',
+        flex: 1,
+        height: 56,
+        borderRadius: 8,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginRight: 8,
+    },
+
+    contactButtonText: {
+        color: '#FFF',
+        fontFamily: 'Archivo_700Bold',
+        fontSize: 16,
+        marginLeft: 16,
     },
 })
 
